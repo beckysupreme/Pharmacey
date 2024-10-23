@@ -1,0 +1,47 @@
+/* Appstyle.css */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #008cba;
+  padding: 15px;
+  list-style-type: none;
+  padding-top: 30px;
+  margin: 0;
+  height: 5vh;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px 12px;
+  font-family: monospace;
+
+}
+
+.navbar li a:hover {
+  background-color: #ff7f50;
+  border-radius: 5px;
+}
+/* Example of Responsive Navbar */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar li {
+    margin: 10px 0;
+  }
+}
+.active-link {
+  font-weight: bold;
+  color: yellow;
+  border-bottom: 2px solid yellow;
+}
+.land{
+  margin-right: 700px;
+}

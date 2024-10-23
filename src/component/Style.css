@@ -1,0 +1,22 @@
+.fon{
+    color: aqua;
+    font-size: 40px;
+}
+.for{
+    font-family: monospace;
+}
+.now{
+    color: aqua;
+    font-family: monospace;
+    padding: 10px;
+    margin-top: 200px;
+}
+.bt{
+    margin-top: 10px;
+    background-color: #4CAF50;
+    font-size: large;
+    font-family: monospace;
+}
+.mid{
+    margin-top: 20px;
+}
